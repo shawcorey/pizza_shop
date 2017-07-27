@@ -1,7 +1,7 @@
 class Order
-  def initialize(first_name, last_name, phone_number, address)
-    @first_name = first_name
-    @last_name = last_name
-    @phone_number = phone_number
-    @address = address
+  def initialize(customer, is_delivery, pizza)
+    @customer = customer
+    @is_delivery = customer
+    @pizza = pizza
+  end
 end
